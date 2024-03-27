@@ -1,9 +1,10 @@
 1)- https://www.agora.io/en/
 2)- create an account
-3)- email uyu365656@gmail.com
-4)- password d7i3!WjB!gVRVKp
+3)- email your email
+4)- password your password
 5)- create an new project name:ivy streams case:Social / Chatroom :1 radio button
 
 6)- AppId - 95d9785605f743348665240ac1af9dbf
 7)- Channel Name - main
-8)- Tocken - 007eJxTYNjQspKxlXP74o2u3EUFzw5VrJbK2flAePuvdL0d0zftz7BUYLA0TbE0tzA1MzBNMzcxNjaxMDMzNTIxSEw2TEyzTElKO6J0NrUhkJHhtY0XKyMDBIL4LAy5iZl5DAwAXwkfsg==
+8)- Tocken - 007eJxTYNjQspKxlXP74o2u3EUFzw5VrJbK2flAePuvdL0d0zftz7BUYLA0TbE0tzA1MzBNMzcxNjaxMDMzNTIxSEw2TEyzTElKO6J0NrUhkJHhtY0XKyMDBIL4LAy5iZl5DAwAXwkfsg
+8)- Tocken - 007eJxTYJDJrZzI5p5y3los7VSd95kfR8s/ZjuclfdK5TWMn60cslOBwdI0xdLcwtTMwDTN3MTY2MTCzMzUyMQgMdkwMc0yJSltU87p1IZARgb+7yIMjFAI4rMw5CZm5jEwAACj2R07

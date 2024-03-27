@@ -1,47 +1,61 @@
-body{
-    background-color:#eee;
+body {
+  background-color: #eee;
 }
 
-#join-btn{
-    position: fixed;
-    top:50%;
-    left:50%;
-    margin-top:-50px;
-    margin-left:-100px;
-    font-size:18px;
-    padding:20px 40px;
+#join-btn {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  font-size: 18px;
+  padding: 20px 40px;
 }
 
-#video-streams{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    height: 90vh;
-    max-width: 1500px;
-    margin:0 auto;
+#video-streams {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  height: 95vh;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
-.video-container{
-    max-height: 100%;
-    border-radius: 10px;
-    overflow: hidden;
+.video-container {
+  max-height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.video-player{
-    height: 100%;
-    width: 100%;
+.video-player {
+  height: 100%;
+  width: 100%;
 }
 
-
-#stream-controls{
-    display: none;
-    justify-content: center;
-    margin-top:0.5em;
-    gap: 5px;
+#stream-controls {
+  background-color: #ddd;
+  padding: 5px 10px;
+  display: none;
+  justify-content: center;
+  margin-top: 0.5em;
+  border-radius: 5px;
+  position: fixed;
+  left: calc(50% - 150px);
+  bottom: -50px;
+  transition: all 1s ease-in-out;
+  opacity: 0.5;
+}
+#stream-controls button {
+  margin: 0 5px;
 }
 
-@media screen and (max-width:1400px){
-    #video-streams{
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        width: 95%;
-    }
+#stream-wrapper:hover #stream-controls {
+  bottom: 11px;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1400px) {
+  #video-streams {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 95%;
+  }
 }
